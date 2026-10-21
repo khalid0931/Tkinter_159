@@ -35,4 +35,6 @@ for nomor in range(1, 11):
     )
     ttk.Entry(baris).pack(side="left", fill="x", expand=True)
 
+    ttk.Button
+
 
