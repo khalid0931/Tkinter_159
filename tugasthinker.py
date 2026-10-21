@@ -42,6 +42,11 @@ for nomor in range(1, 11):
     ).pack(fill="x", pady=(20, 14))
 
     hasil_var = tk.StringVar(value="Hasil prediksi akan tampil di sini.")
-    ttk.Label
+    ttk.Label(
+        main,
+        textvariable=hasil_var,
+        font=("Segoe UI", 11, "bold"),
+        wraplength=440,
+    ).pack(anchor="w")
 
 
