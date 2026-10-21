@@ -9,3 +9,7 @@ root.title("Prediksi Program Studi")
 root.geometry("520x600")
 root.minsize(440, 500)
 
+main = ttk.Frame(root, padding=24)
+main.pack(fill="both", expand=True)
+
+
