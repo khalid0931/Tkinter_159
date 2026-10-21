@@ -23,4 +23,7 @@ ttk.Label(
     text="Masukkan nilai untuk 10 mata pelajaran:",
 ).pack(anchor="w", pady=(0, 14))
 
+form = ttk.Frame(main)
+form.pack(fill="x")
+
 
