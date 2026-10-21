@@ -35,6 +35,10 @@ for nomor in range(1, 11):
     )
     ttk.Entry(baris).pack(side="left", fill="x", expand=True)
 
-    ttk.Button
+    ttk.Button(
+        main,
+        text="Hasil Prediksi",
+        command=tampilkan_hasil,
+    ).pack(fill="x", pady=(20, 14))
 
 
