@@ -18,6 +18,9 @@ ttk.Label(
     font=("Segoe UI", 16, "bold"),
 ).pack(anchor="w", pady=(0, 6))
 
-ttk.Label
+ttk.Label(
+    main,
+    text="Masukkan nilai untuk 10 mata pelajaran:",
+).pack(anchor="w", pady=(0, 14))
 
 
