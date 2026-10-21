@@ -41,4 +41,6 @@ for nomor in range(1, 11):
         command=tampilkan_hasil,
     ).pack(fill="x", pady=(20, 14))
 
+    hasil_var = tk.StringVar(value="Hasil prediksi akan tampil di sini.")
+
 
