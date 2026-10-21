@@ -33,5 +33,6 @@ for nomor in range(1, 11):
     ttk.Label(baris, text=f"Nilai mata pelajaran {nomor}", width=26).pack(
         side="left"
     )
+    ttk.Entry(baris).pack(side="left", fill="x", expand=True)
 
 
