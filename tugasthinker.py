@@ -26,4 +26,8 @@ ttk.Label(
 form = ttk.Frame(main)
 form.pack(fill="x")
 
+for nomor in range(1, 11):
+    baris = ttk.Frame(form)
+    baris.pack(fill="x", pady=4)
+
 
