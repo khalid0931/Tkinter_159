@@ -49,4 +49,6 @@ for nomor in range(1, 11):
         wraplength=440,
     ).pack(anchor="w")
 
+    root.mainloop()
+
 
