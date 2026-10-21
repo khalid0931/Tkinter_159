@@ -30,4 +30,8 @@ for nomor in range(1, 11):
     baris = ttk.Frame(form)
     baris.pack(fill="x", pady=4)
 
+    ttk.Label(baris, text=f"Nilai mata pelajaran {nomor}", width=26).pack(
+        side="left"
+    )
+
 
