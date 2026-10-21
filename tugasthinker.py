@@ -18,4 +18,6 @@ ttk.Label(
     font=("Segoe UI", 16, "bold"),
 ).pack(anchor="w", pady=(0, 6))
 
+ttk.Label
+
 
