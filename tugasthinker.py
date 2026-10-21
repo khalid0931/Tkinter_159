@@ -12,6 +12,10 @@ root.minsize(440, 500)
 main = ttk.Frame(root, padding=24)
 main.pack(fill="both", expand=True)
 
-ttk.Label
+ttk.Label(
+    main,
+    text="Aplikasi Prediksi Prodi Pilihan",
+    font=("Segoe UI", 16, "bold"),
+).pack(anchor="w", pady=(0, 6))
 
 
