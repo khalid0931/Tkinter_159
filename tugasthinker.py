@@ -12,4 +12,6 @@ root.minsize(440, 500)
 main = ttk.Frame(root, padding=24)
 main.pack(fill="both", expand=True)
 
+ttk.Label
+
 
